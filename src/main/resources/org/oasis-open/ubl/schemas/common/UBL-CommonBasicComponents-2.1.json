@@ -1,0 +1,2625 @@
+{
+  "title": "json-schema/common/UBL-CommonBasicComponents-2.1.json",
+  "description": "\n  Library:           OASIS Universal Business Language (UBL) 2.1 OS\n                     http://docs.oasis-open.org/ubl/os-UBL-2.1/\n  Release Date:      04 November 2013\n  Module:            json-schema/common/UBL-CommonBasicComponents-2.1.json\n  Generated on:      2017-01-06 03:20z\n  Copyright (c) OASIS Open 2016. All Rights Reserved.\n\n\n  OASIS takes no position regarding the validity or scope of any \n  intellectual property or other rights that might be claimed to pertain \n  to the implementation or use of the technology described in this \n  document or the extent to which any license under such rights \n  might or might not be available; neither does it represent that it has \n  made any effort to identify any such rights. Information on OASIS's \n  procedures with respect to rights in OASIS specifications can be \n  found at the OASIS website. Copies of claims of rights made \n  available for publication and any assurances of licenses to be made \n  available, or the result of an attempt made to obtain a general \n  license or permission for the use of such proprietary rights by \n  implementors or users of this specification, can be obtained from \n  the OASIS Executive Director.\n\n  OASIS invites any interested party to bring to its attention any \n  copyrights, patents or patent applications, or other proprietary \n  rights which may cover technology that may be required to \n  implement this specification. Please address the information to the \n  OASIS Executive Director.\n  \n  This document and translations of it may be copied and furnished to \n  others, and derivative works that comment on or otherwise explain \n  it or assist in its implementation may be prepared, copied, \n  published and distributed, in whole or in part, without restriction of \n  any kind, provided that the above copyright notice and this \n  paragraph are included on all such copies and derivative works. \n  However, this document itself may not be modified in any way, \n  such as by removing the copyright notice or references to OASIS, \n  except as needed for the purpose of developing OASIS \n  specifications, in which case the procedures for copyrights defined \n  in the OASIS Intellectual Property Rights document must be \n  followed, or as required to translate it into languages other than \n  English. \n\n  The limited permissions granted above are perpetual and will not be \n  revoked by OASIS or its successors or assigns. \n\n  This document and the information contained herein is provided on \n  an \"AS IS\" basis and OASIS DISCLAIMS ALL WARRANTIES, \n  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY \n  WARRANTY THAT THE USE OF THE INFORMATION HEREIN \n  WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED \n  WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A \n  PARTICULAR PURPOSE.    \n",
+  "definitions": {
+    "AcceptedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "AcceptedVariantsDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AccountFormatCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AccountID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AccountTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AccountingCost": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AccountingCostCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ActionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ActivityType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ActivityTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ActualDeliveryDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ActualDeliveryTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ActualDespatchDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ActualDespatchTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ActualPickupDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ActualPickupTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ActualTemperatureReductionQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "AdValoremIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "AdditionalAccountID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AdditionalConditions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AdditionalInformation": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AdditionalStreetName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "AddressFormatCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AddressTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AdjustmentReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AdmissionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AdvertisementAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "AgencyID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AgencyName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AirFlowPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "AircraftID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AliasName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "AllowanceChargeReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AllowanceChargeReasonCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/AllowanceChargeReason_CodeType"
+      },
+    "AllowanceTotalAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "AltitudeMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "Amount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "AmountRate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/RateType"
+      },
+    "AnimalFoodApprovedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "AnimalFoodIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "AnnualAverageAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "ApplicationStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ApprovalDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ApprovalStatus": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AttributeID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AuctionConstraintIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "AuctionURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AvailabilityDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "AvailabilityStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AverageAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "AverageSubsequentContractAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "AwardDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "AwardTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "AwardingCriterionDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "AwardingCriterionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "AwardingCriterionTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "AwardingMethodTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "BackOrderAllowedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "BackorderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "BackorderReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "BalanceAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "BalanceBroughtForwardIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "BarcodeSymbologyID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "BaseAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "BaseQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "BaseUnitMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "BasedOnConsensusIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "BasicConsumedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "BatchQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "BestBeforeDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "BindingOnBuyerIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "BirthDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "BirthplaceName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "BlockName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "BrandName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "BrokerAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "BudgetYearNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "BuildingName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "BuildingNumber": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "BulkCargoIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "BusinessClassificationEvidenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "BusinessIdentityEvidenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "BuyerEventID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "BuyerProfileURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "BuyerReference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CV2ID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "CalculationExpression": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CalculationExpressionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CalculationMethodCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CalculationRate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/RateType"
+      },
+    "CalculationSequenceNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "CallBaseAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "CallDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "CallExtensionAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "CallTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "CancellationNote": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CandidateReductionConstraintIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "CandidateStatement": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CanonicalizationMethod": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CapabilityTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CardChipCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Chip_CodeType"
+      },
+    "CardTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CargoTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CarrierAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "CarrierServiceInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CatalogueIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "CategoryName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "CertificateType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CertificateTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ChangeConditions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Channel": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ChannelCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Channel_CodeType"
+      },
+    "CharacterSetCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Characteristics": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ChargeIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ChargeTotalAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "ChargeableQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ChargeableWeightMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "ChildConsignmentQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ChipApplicationID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "CityName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "CitySubdivisionName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "CodeValue": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CollaborationPriorityCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Comment": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CommodityCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CompanyID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "CompanyLegalForm": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CompanyLegalFormCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CompanyLiquidationStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ComparedValueMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "ComparisonDataCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ComparisonDataSourceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ComparisonForecastIssueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ComparisonForecastIssueTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "CompletionIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "Condition": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ConditionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Conditions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ConditionsDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ConsigneeAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ConsignmentQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ConsignorAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ConsolidatableIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ConstitutionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ConsumerIncentiveTacticTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ConsumerUnitQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ConsumersEnergyLevel": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ConsumersEnergyLevelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ConsumptionEnergyQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ConsumptionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ConsumptionLevel": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ConsumptionLevelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ConsumptionReportID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ConsumptionType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ConsumptionTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ConsumptionWaterQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ContainerizedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "Content": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ContentUnitQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ContractFolderID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ContractName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ContractSubdivision": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ContractType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ContractTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ContractedCarrierAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ContractingSystemCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CoordinateSystemCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CopyIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "CorporateRegistrationTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CorporateStockAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "CorrectionAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "CorrectionType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CorrectionTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CorrectionUnitAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "CountrySubentity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CountrySubentityCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CreditLineAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "CreditNoteTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CreditedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "CrewQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "CurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "CurrentChargeType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CurrentChargeTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CustomerAssignedAccountID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "CustomerReference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CustomizationID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "CustomsClearanceServiceInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "CustomsImportClassifiedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "CustomsStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "CustomsTariffQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "DamageRemarks": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DangerousGoodsApprovedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "DataSendingCapability": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DataSourceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Date": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "DebitLineAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "DebitedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "DeclarationTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DeclaredCarriageValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "DeclaredCustomsValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "DeclaredForCarriageValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "DeclaredStatisticsValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "DeliveredQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "DeliveryInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DemurrageInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Department": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Description": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DescriptionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DespatchAdviceTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DifferenceTemperatureReductionQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "DirectionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DisplayTacticTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DispositionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "District": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DocumentCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "DocumentDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DocumentHash": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DocumentID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "DocumentStatusCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/DocumentStatus_CodeType"
+      },
+    "DocumentStatusReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DocumentStatusReasonDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DocumentType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DocumentTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "DocumentationFeeAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "DueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "DurationMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "Duty": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "DutyCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "EarliestPickupDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "EarliestPickupTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "EconomicOperatorRegistryURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "EffectiveDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "EffectiveTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ElectronicDeviceDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ElectronicMail": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "EmbeddedDocumentBinaryObject": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/BinaryObjectType"
+      },
+    "EmergencyProceduresCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "EmployeeQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "EncodingCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "EndDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "EndTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "EndpointID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "EnvironmentalEmissionTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "EstimatedAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "EstimatedConsumedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "EstimatedDeliveryDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "EstimatedDeliveryTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "EstimatedDespatchDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "EstimatedDespatchTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "EstimatedOverallContractAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "EstimatedOverallContractQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "EvaluationCriterionTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "EvidenceTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExceptionResolutionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExceptionStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExchangeMarketID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ExclusionReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ExecutionRequirementCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExemptionReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ExemptionReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExpectedOperatorQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ExpectedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ExpenseCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExpiryDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ExpiryTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "Expression": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ExpressionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ExtendedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "Extension": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "FaceValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "FamilyName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "FeatureTacticTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "FeeAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "FeeDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "FileName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "FinancingInstrumentCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "FirstName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "FirstShipmentAvailibilityDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "Floor": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "FollowupContractIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ForecastPurposeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ForecastTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "FormatCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ForwarderServiceInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "FreeOfChargeIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "FreeOnBoardValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "FreightForwarderAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "FreightRateClassCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Frequency": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "FrozenDocumentIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "FrozenPeriodDaysNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "FullnessIndicationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "FullyPaidSharesIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "FundingProgram": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "FundingProgramCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "GasPressureQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "GenderCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "GeneralCargoIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "GovernmentAgreementConstraintIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "GrossTonnageMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "GrossVolumeMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "GrossWeightMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "GuaranteeTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "GuaranteedDespatchDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "GuaranteedDespatchTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "HandlingCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "HandlingInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "HashAlgorithmMethod": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "HaulageInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "HazardClassID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "HazardousCategoryCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "HazardousRegulationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "HazardousRiskIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "HeatingType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "HeatingTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "HigherTenderAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "HolderName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "HumanFoodApprovedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "HumanFoodIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "HumidityPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "ID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "IdentificationCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/CountryIdentification_CodeType"
+      },
+    "IdentificationID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ImmobilizationCertificateID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ImportanceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "IndicationIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "IndustryClassificationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Information": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "InformationURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "InhalationToxicityZoneCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "InhouseMail": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "InspectionMethodCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "InstallmentDueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "InstructionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "InstructionNote": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Instructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "InsurancePremiumAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "InsuranceValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "InventoryValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "InvoiceTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "InvoicedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "InvoicingPartyReference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "IssueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "IssueNumberID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "IssueTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "IssuerID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ItemClassificationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ItemUpdateRequestIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "JobTitle": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "JourneyID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "Justification": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "JustificationDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Keyword": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LanguageID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LastRevisionDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "LastRevisionTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "LatestDeliveryDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "LatestDeliveryTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "LatestMeterQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "LatestMeterReadingDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "LatestMeterReadingMethod": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LatestMeterReadingMethodCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "LatestPickupDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "LatestPickupTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "LatestProposalAcceptanceDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "LatestSecurityClearanceDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "LatitudeDegreesMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "LatitudeDirectionCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/LatitudeDirection_CodeType"
+      },
+    "LatitudeMinutesMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "LeadTimeMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "LegalReference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LegalStatusIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "LiabilityAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "LicensePlateID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LifeCycleStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "LimitationDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Line": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LineCountNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "LineExtensionAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "LineID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LineNumberNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "LineStatusCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/LineStatus_CodeType"
+      },
+    "ListValue": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LivestockIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "LoadingLengthMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "LoadingSequenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LocaleCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Location": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LocationID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LocationTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Login": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LogoReferenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LongitudeDegreesMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "LongitudeDirectionCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/LongitudeDirection_CodeType"
+      },
+    "LongitudeMinutesMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "LossRisk": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LossRiskResponsibilityCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "LotNumberID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LowTendersDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "LowerOrangeHazardPlacardID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "LowerTenderAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "MandateTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ManufactureDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ManufactureTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "MarkAttention": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MarkAttentionIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "MarkCare": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MarkCareIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "MarketValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "MarkingID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "MathematicOperatorCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Operator_CodeType"
+      },
+    "MaximumAdvertisementAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "MaximumAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "MaximumBackorderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MaximumCopiesNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "MaximumMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "MaximumNumberNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "MaximumOperatorQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MaximumOrderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MaximumPaidAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "MaximumPaymentInstructionsNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "MaximumPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "MaximumQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MaximumValue": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MaximumVariantQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "Measure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "MedicalFirstAidGuideCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "MeterConstant": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MeterConstantCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "MeterName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MeterNumber": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MeterReadingComments": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MeterReadingType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MeterReadingTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "MiddleName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "MimeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "MinimumAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "MinimumBackorderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MinimumImprovementBid": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MinimumInventoryQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MinimumMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "MinimumNumberNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "MinimumOrderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MinimumPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "MinimumQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MinimumValue": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MiscellaneousEventTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ModelName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "MonetaryScope": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MovieTitle": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "MultipleOrderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "MultiplierFactorNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "Name": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "NameCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "NameSuffix": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "NationalityID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "NatureCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "NegotiationDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "NetNetWeightMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "NetTonnageMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "NetVolumeMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "NetWeightMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "NetworkID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "NominationDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "NominationTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "NormalTemperatureReductionQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "Note": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "NotificationTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "OccurrenceDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "OccurrenceTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "OnCarriageIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "OneTimeChargeType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "OneTimeChargeTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "OntologyURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "OpenTenderID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "OperatingYearsQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "OptionalLineItemIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "OptionsDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "OrderIntervalDaysNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "OrderQuantityIncrementNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "OrderResponseCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "OrderTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "OrderableIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "OrderableUnit": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "OrderableUnitFactorRate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/RateType"
+      },
+    "OrganizationDepartment": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "OriginalContractingSystemID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "OriginalJobID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "OtherConditionsIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "OtherInstruction": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "OtherName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "OutstandingQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "OutstandingReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "OversupplyQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "OwnerTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PackLevelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PackQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "PackSizeNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "PackageLevelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PackagingTypeCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/PackagingType_CodeType"
+      },
+    "PackingCriteriaCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PackingMaterial": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PaidAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PaidDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "PaidTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ParentDocumentID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ParentDocumentLineReferenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ParentDocumentTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ParentDocumentVersionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PartPresentationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PartecipationPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "PartialDeliveryIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ParticipationPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "PartyCapacityAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PartyType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PartyTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PassengerQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "Password": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PayPerView": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PayableAlternativeAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PayableAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PayableRoundingAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PayerReference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PaymentAlternativeCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "PaymentChannelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PaymentCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "PaymentDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PaymentDueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "PaymentFrequencyCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PaymentID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PaymentMeansCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/PaymentMeans_CodeType"
+      },
+    "PaymentMeansID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PaymentNote": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PaymentOrderReference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PaymentPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "PaymentPurposeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PaymentTermsDetailsURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PenaltyAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PenaltySurchargePercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "PerUnitAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "Percent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "PerformanceMetricTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PerformanceValueQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "PerformingCarrierAssignedID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PersonalSituation": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PhoneNumber": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PlacardEndorsement": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PlacardNotation": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PlannedDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "PlotIdentification": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PositionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PostEventNotificationDurationMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "PostalZone": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Postbox": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PowerIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "PreCarriageIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "PreEventNotificationDurationMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "PreferenceCriterionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PrepaidAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PrepaidIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "PrepaidPaymentReferenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PreviousCancellationReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PreviousJobID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PreviousMeterQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "PreviousMeterReadingDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "PreviousMeterReadingMethod": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PreviousMeterReadingMethodCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PreviousVersionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PriceAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "PriceChangeReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PriceEvaluationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PriceRevisionFormulaDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PriceType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PriceTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PricingCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "PricingUpdateRequestIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "PrimaryAccountNumberID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "PrintQualifier": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Priority": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PrivacyCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PrizeDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PrizeIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ProcedureCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ProcessDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ProcessReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ProcessReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ProcurementSubTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ProcurementTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ProductTraceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ProfileExecutionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ProfileID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ProfileStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ProgressPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "PromotionalEventTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ProviderTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "PublishAwardIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "Purpose": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "PurposeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "QualityControlCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Quantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "QuantityDiscrepancyCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "RadioCallSignID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RailCarID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "Rank": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Rate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/RateType"
+      },
+    "ReceiptAdviceTypeCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/ReceiptAdviceType_CodeType"
+      },
+    "ReceivedDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ReceivedElectronicTenderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ReceivedForeignTenderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ReceivedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ReceivedTenderQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "Reference": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ReferenceDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ReferenceEventCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ReferenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ReferenceTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ReferencedConsignmentID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RefrigeratedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "RefrigerationOnIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "Region": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "RegisteredDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RegisteredTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "RegistrationDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RegistrationExpirationDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RegistrationID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RegistrationName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "RegistrationNationality": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "RegistrationNationalityID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RegulatoryDomain": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "RejectActionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "RejectReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "RejectReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "RejectedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "RejectionNote": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ReleaseID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ReliabilityPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "Remarks": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ReminderSequenceNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "ReminderTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ReplenishmentOwnerDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "RequestForQuotationLineID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RequestedDeliveryDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RequestedDespatchDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RequestedDespatchTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "RequestedInvoiceCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "RequestedPublicationDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RequiredCurriculaIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "RequiredCustomsID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RequiredDeliveryDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RequiredDeliveryTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "RequiredFeeAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "ResidenceType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ResidenceTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ResidentOccupantsNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "Resolution": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ResolutionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ResolutionDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ResolutionTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ResponseCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ResponseDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ResponseTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "RetailEventName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "RetailEventStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ReturnabilityIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ReturnableMaterialIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ReturnableQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "RevisedForecastLineID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "RevisionDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "RevisionStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "RevisionTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "RoamingPartnerName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "RoleCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "RoleDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Room": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "RoundingAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "SalesOrderID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SalesOrderLineID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SchemeURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SealIssuerTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SealStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SealingPartyType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SecurityClassificationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SecurityID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SellerEventID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SequenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SequenceNumberID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SequenceNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "SerialID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ServiceInformationPreferenceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ServiceName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "ServiceNumberCalled": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ServiceType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ServiceTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SettlementDiscountAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "SettlementDiscountPercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "SharesNumberQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ShippingMarks": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ShippingOrderID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ShippingPriorityLevelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ShipsRequirements": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ShortQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ShortageActionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SignatureID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SignatureMethod": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SizeTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SoleProprietorshipIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "SourceCurrencyBaseRate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/RateType"
+      },
+    "SourceCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "SourceForecastIssueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "SourceForecastIssueTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "SourceValueMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "SpecialInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SpecialSecurityIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "SpecialServiceInstructions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SpecialTerms": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SpecialTransportRequirements": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SpecificationID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SpecificationTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SplitConsignmentIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "StartDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "StartTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "StatementTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "StatusAvailableIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "StatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "StatusReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "StatusReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "StreetName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "SubcontractingConditionsCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SubmissionDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "SubmissionDueDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "SubmissionMethodCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SubscriberID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SubscriberType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SubscriberTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "SubstitutionStatusCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/SubstitutionStatus_CodeType"
+      },
+    "SuccessiveSequenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SummaryDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "SupplierAssignedAccountID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "SupplyChainActivityTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TareWeightMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "TargetCurrencyBaseRate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/RateType"
+      },
+    "TargetCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "TargetInventoryQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TargetServicePercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "TariffClassCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TariffCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TariffDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TaxAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TaxCurrencyCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/Currency_CodeType"
+      },
+    "TaxEnergyAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TaxEnergyBalanceAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TaxEnergyOnAccountAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TaxEvidenceIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "TaxExclusiveAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TaxExemptionReason": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TaxExemptionReasonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TaxIncludedIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "TaxInclusiveAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TaxLevelCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TaxPointDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "TaxTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TaxableAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TechnicalCommitteeDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TechnicalName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "TelecommunicationsServiceCall": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TelecommunicationsServiceCallCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TelecommunicationsServiceCategory": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TelecommunicationsServiceCategoryCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TelecommunicationsSupplyType": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TelecommunicationsSupplyTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Telefax": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Telephone": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TenderEnvelopeID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "TenderEnvelopeTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TenderResultCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TenderTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TendererRequirementTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TendererRoleCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TestMethod": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "Text": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ThirdPartyPayerIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "ThresholdAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "ThresholdQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "ThresholdValueComparisonCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TierRange": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TierRatePercent": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/PercentType"
+      },
+    "TimeAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TimeDeltaDaysQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TimeFrequencyCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TimezoneOffset": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TimingComplaint": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TimingComplaintCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "Title": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ToOrderIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "TotalAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalBalanceAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalConsumedQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TotalCreditAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalDebitAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalDeliveredQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TotalGoodsItemQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TotalInvoiceAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalMeteredQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TotalPackageQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TotalPackagesQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TotalPaymentAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalTaskAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalTaxAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TotalTransportHandlingUnitQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "TraceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "TrackingDeviceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TrackingID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "TradeItemPackingLabelingTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TradeServiceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TradingRestrictions": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TrainID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "TransactionCurrencyTaxAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "TransitDirectionCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportAuthorizationCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportEmergencyCardCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportEquipmentTypeCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/TransportEquipmentType_CodeType"
+      },
+    "TransportEventTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportExecutionPlanReferenceID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "TransportExecutionStatusCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportHandlingUnitTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportMeansTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportModeCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/TransportMode_CodeType"
+      },
+    "TransportServiceCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TransportServiceProviderRemarks": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TransportServiceProviderSpecialTerms": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TransportUserRemarks": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TransportUserSpecialTerms": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TransportationServiceDescription": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "TransportationServiceDetailsURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "TransportationStatusTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "TypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "UBLVersionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "UNDGCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "URI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "UUID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "UnknownPriceIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "UpperOrangeHazardPlacardID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "UrgencyCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "UtilityStatementTypeCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ValidateProcess": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ValidateTool": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ValidateToolVersion": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ValidationDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "ValidationResultCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "ValidationTime": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TimeType"
+      },
+    "ValidatorID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "ValidityStartDate": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/DateType"
+      },
+    "Value": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ValueAmount": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/AmountType"
+      },
+    "ValueMeasure": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/MeasureType"
+      },
+    "ValueQualifier": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "ValueQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "VarianceQuantity": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/QuantityType"
+      },
+    "VariantConstraintIndicator": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IndicatorType"
+      },
+    "VariantID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "VersionID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "VesselID": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "VesselName": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NameType"
+      },
+    "WarrantyInformation": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "WebsiteURI": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/IdentifierType"
+      },
+    "WeekDayCode": {
+      "$ref": "UBL-QualifiedDataTypes-2.1.json#/definitions/WeekDay_CodeType"
+      },
+    "Weight": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "WeightNumeric": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/NumericType"
+      },
+    "WeightingAlgorithmCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "WorkPhase": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      },
+    "WorkPhaseCode": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/CodeType"
+      },
+    "XPath": {
+      "$ref": "UBL-UnqualifiedDataTypes-2.1.json#/definitions/TextType"
+      }
+    }
+  }
