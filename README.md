@@ -17,20 +17,20 @@ In order to you to include this software in your own project, you must first spe
   <dependency>
     <groupId>com.tradeshift</groupId>
     <artifactId>tradeshift-ubl-jsonschema</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.0-cnd02</version>
   </dependency>
 ```
 
 ### Using the UBL XML Schemas with SBT
 ```sbt
 libraryDependencies +=
-  "com.tradeshift" %% "tradeshift-ubl-jsonschema" % "2.1.0"
+  "com.tradeshift" %% "tradeshift-ubl-jsonschema" % "2.1.0-cnd02"
 ```
 
 ### Using the UBL XML Schemas with Gradle
 ```gradle
 dependencies {
-  compile 'com.tradeshift:tradeshift-ubl-jsonschema:2.1.0'
+  compile 'com.tradeshift:tradeshift-ubl-jsonschema:2.1.0-cnd02'
 }
 ```
 
