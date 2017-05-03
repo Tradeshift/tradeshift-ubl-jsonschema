@@ -5,6 +5,9 @@ UBL is designed to provide a universally understood and recognized commercial sy
 
 Please refer to the official [open-oasis.org](http://oasis-open.org/) site for the full documentation for [UBL v2.0](http://docs.oasis-open.org/ubl/os-UBL-2.0/UBL-2.0.html) and [UBL v2.1](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html)
 
+## UBL 2.1 JSON Alternative Representation Version 1.0
+his committee note supplements the OASIS Universal Business Language version 2.1 release with an alternative expression of the UBL sample XML documents in JSON syntax, and a JSON schema expression of all 65 XSD schemas in conformance to the OASIS Business Document Naming and Design Rules Version 1.1.
+
 ## Getting started
 In order to you to include this software in your own project, you must first specify the dependency on the artifact. The most current version is `2.1.0` and it is backwards compatible with `2.0.0`.
 
