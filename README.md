@@ -11,7 +11,7 @@ his committee note supplements the OASIS Universal Business Language version 2.1
 ## Getting started
 In order to you to include this software in your own project, you must first specify the dependency on the artifact. The most current version is `2.1.0` and it is backwards compatible with `2.0.0`.
 
-### Using the UBL XML Schemas with Maven
+### Using the UBL JSON Schemas with Maven
 
 ```xml
   <dependency>
@@ -21,13 +21,13 @@ In order to you to include this software in your own project, you must first spe
   </dependency>
 ```
 
-### Using the UBL XML Schemas with SBT
+### Using the UBL JSON Schemas with SBT
 ```sbt
 libraryDependencies +=
   "com.tradeshift" %% "tradeshift-ubl-jsonschema" % "2.1.0-cnd02"
 ```
 
-### Using the UBL XML Schemas with Gradle
+### Using the UBL JSON Schemas with Gradle
 ```gradle
 dependencies {
   compile 'com.tradeshift:tradeshift-ubl-jsonschema:2.1.0-cnd02'
