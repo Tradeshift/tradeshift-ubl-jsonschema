@@ -1,599 +1,598 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "json-schema/maindoc/UBL-CreditNote-2.1.json",
-  "description": "\n  Library:           OASIS Universal Business Language (UBL) 2.1 OS\n                     http://docs.oasis-open.org/ubl/os-UBL-2.1/\n  Release Date:      04 November 2013\n  Module:            json-schema/maindoc/UBL-CreditNote-2.1.json\n  Generated on:      2017-01-06 03:20z\n  Copyright (c) OASIS Open 2016. All Rights Reserved.\n\n\n  OASIS takes no position regarding the validity or scope of any \n  intellectual property or other rights that might be claimed to pertain \n  to the implementation or use of the technology described in this \n  document or the extent to which any license under such rights \n  might or might not be available; neither does it represent that it has \n  made any effort to identify any such rights. Information on OASIS's \n  procedures with respect to rights in OASIS specifications can be \n  found at the OASIS website. Copies of claims of rights made \n  available for publication and any assurances of licenses to be made \n  available, or the result of an attempt made to obtain a general \n  license or permission for the use of such proprietary rights by \n  implementors or users of this specification, can be obtained from \n  the OASIS Executive Director.\n\n  OASIS invites any interested party to bring to its attention any \n  copyrights, patents or patent applications, or other proprietary \n  rights which may cover technology that may be required to \n  implement this specification. Please address the information to the \n  OASIS Executive Director.\n  \n  This document and translations of it may be copied and furnished to \n  others, and derivative works that comment on or otherwise explain \n  it or assist in its implementation may be prepared, copied, \n  published and distributed, in whole or in part, without restriction of \n  any kind, provided that the above copyright notice and this \n  paragraph are included on all such copies and derivative works. \n  However, this document itself may not be modified in any way, \n  such as by removing the copyright notice or references to OASIS, \n  except as needed for the purpose of developing OASIS \n  specifications, in which case the procedures for copyrights defined \n  in the OASIS Intellectual Property Rights document must be \n  followed, or as required to translate it into languages other than \n  English. \n\n  The limited permissions granted above are perpetual and will not be \n  revoked by OASIS or its successors or assigns. \n\n  This document and the information contained herein is provided on \n  an \"AS IS\" basis and OASIS DISCLAIMS ALL WARRANTIES, \n  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY \n  WARRANTY THAT THE USE OF THE INFORMATION HEREIN \n  WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED \n  WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A \n  PARTICULAR PURPOSE.    \n",
-  "required": [
-    "CreditNote"
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "json-schema/maindoc/UBL-CreditNote-2.1.json",
+    "description": "\n  Library:           OASIS Universal Business Language (UBL) 2.1 OS\n                     http://docs.oasis-open.org/ubl/os-UBL-2.1/\n  Release Date:      04 November 2013\n  Module:            json-schema/maindoc/UBL-CreditNote-2.1.json\n  Generated on:      2017-01-06 03:20z\n  Copyright (c) OASIS Open 2016. All Rights Reserved.\n\n\n  OASIS takes no position regarding the validity or scope of any \n  intellectual property or other rights that might be claimed to pertain \n  to the implementation or use of the technology described in this \n  document or the extent to which any license under such rights \n  might or might not be available; neither does it represent that it has \n  made any effort to identify any such rights. Information on OASIS's \n  procedures with respect to rights in OASIS specifications can be \n  found at the OASIS website. Copies of claims of rights made \n  available for publication and any assurances of licenses to be made \n  available, or the result of an attempt made to obtain a general \n  license or permission for the use of such proprietary rights by \n  implementors or users of this specification, can be obtained from \n  the OASIS Executive Director.\n\n  OASIS invites any interested party to bring to its attention any \n  copyrights, patents or patent applications, or other proprietary \n  rights which may cover technology that may be required to \n  implement this specification. Please address the information to the \n  OASIS Executive Director.\n  \n  This document and translations of it may be copied and furnished to \n  others, and derivative works that comment on or otherwise explain \n  it or assist in its implementation may be prepared, copied, \n  published and distributed, in whole or in part, without restriction of \n  any kind, provided that the above copyright notice and this \n  paragraph are included on all such copies and derivative works. \n  However, this document itself may not be modified in any way, \n  such as by removing the copyright notice or references to OASIS, \n  except as needed for the purpose of developing OASIS \n  specifications, in which case the procedures for copyrights defined \n  in the OASIS Intellectual Property Rights document must be \n  followed, or as required to translate it into languages other than \n  English. \n\n  The limited permissions granted above are perpetual and will not be \n  revoked by OASIS or its successors or assigns. \n\n  This document and the information contained herein is provided on \n  an \"AS IS\" basis and OASIS DISCLAIMS ALL WARRANTIES, \n  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY \n  WARRANTY THAT THE USE OF THE INFORMATION HEREIN \n  WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED \n  WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A \n  PARTICULAR PURPOSE.    \n",
+    "required": [
+        "CreditNote"
     ],
-  "properties": {
-    "_D": {
-      "description": "Document ABIE XML namespace string",
-      "type": "string"
-      },
-    "_S": {
-      "description": "Library ABIE XML namespace string (for ASBIEs)",
-      "type": "string"
-      },
-    "_B": {
-      "description": "BBIE XML namespace string",
-      "type": "string"
-      },
-    "_E": {
-      "description": "Extension scaffolding XML namespace string",
-      "type": "string"
-      },
-    "CreditNote": {
-      "description": "A document used to specify credits due to the Debtor from the Creditor.",
-      "items": {
-        "$ref": "#/definitions/CreditNote"
+    "properties": {
+        "_D": {
+            "description": "Document ABIE XML namespace string",
+            "type": "string"
         },
-      "maxItems": 1,
-      "minItems": 1,
-      "type": "array"
-      }
+        "_S": {
+            "description": "Library ABIE XML namespace string (for ASBIEs)",
+            "type": "string"
+        },
+        "_B": {
+            "description": "BBIE XML namespace string",
+            "type": "string"
+        },
+        "_E": {
+            "description": "Extension scaffolding XML namespace string",
+            "type": "string"
+        },
+        "CreditNote": {
+            "description": "A document used to specify credits due to the Debtor from the Creditor.",
+            "items": {
+                "$ref": "#/definitions/CreditNote"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+        }
     },
-  "additionalProperties": false,
-  "type": "object",
-  "definitions": {
-    "CreditNote": {
-      "title": "Credit Note. Details",
-      "description": "A document used to specify credits due to the Debtor from the Creditor.",
-      "required": [
-        "ID",
-        "IssueDate",
-        "AccountingSupplierParty",
-        "AccountingCustomerParty",
-        "LegalMonetaryTotal",
-        "CreditNoteLine"
-        ],
-      "properties": {
-
-        "UBLExtensions": {
-          "title": "UBLExtensions",
-          "description": "An optional set of extensions to the committee model",
-          "items": { 
-            "$ref": "../common/UBL-CommonExtensionComponents-2.1.json#/definitions/UBLExtensions" },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-
-        "UBLVersionID": {
-          "title": "Credit Note. UBL Version Identifier. Identifier",
-          "description": "Identifies the earliest version of the UBL 2 schema for this document type that defines all of the elements that might be encountered in the current instance.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/UBLVersionID"
+    "additionalProperties": false,
+    "type": "object",
+    "definitions": {
+        "CreditNote": {
+            "title": "Credit Note. Details",
+            "description": "A document used to specify credits due to the Debtor from the Creditor.",
+            "required": [
+                "ID",
+                "IssueDate",
+                "AccountingSupplierParty",
+                "AccountingCustomerParty",
+                "LegalMonetaryTotal",
+                "CreditNoteLine"
+            ],
+            "properties": {
+                "UBLExtensions": {
+                    "title": "UBLExtensions",
+                    "description": "An optional set of extensions to the committee model",
+                    "items": {
+                        "$ref": "../common/UBL-CommonExtensionComponents-2.1.json#/definitions/UBLExtensions"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "UBLVersionID": {
+                    "title": "Credit Note. UBL Version Identifier. Identifier",
+                    "description": "Identifies the earliest version of the UBL 2 schema for this document type that defines all of the elements that might be encountered in the current instance.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/UBLVersionID"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "CustomizationID": {
+                    "title": "Credit Note. Customization Identifier. Identifier",
+                    "description": "Identifies a user-defined customization of UBL for a specific use.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/CustomizationID"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "ProfileID": {
+                    "title": "Credit Note. Profile Identifier. Identifier",
+                    "description": "Identifies a user-defined profile of the customization of UBL being used.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/ProfileID"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "ProfileExecutionID": {
+                    "title": "Credit Note. Profile Execution Identifier. Identifier",
+                    "description": "Identifies an instance of executing a profile, to associate all transactions in a collaboration.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/ProfileExecutionID"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "ID": {
+                    "title": "Credit Note. Identifier",
+                    "description": "An identifier for this document, assigned by the sender.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/ID"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "CopyIndicator": {
+                    "title": "Credit Note. Copy_ Indicator. Indicator",
+                    "description": "Indicates whether this document is a copy (true) or not (false).",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/CopyIndicator"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "UUID": {
+                    "title": "Credit Note. UUID. Identifier",
+                    "description": "A universally unique identifier for an instance of this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/UUID"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "IssueDate": {
+                    "title": "Credit Note. Issue Date. Date",
+                    "description": "The date, assigned by the sender, on which this document was issued.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/IssueDate"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "IssueTime": {
+                    "title": "Credit Note. Issue Time. Time",
+                    "description": "The time, assigned by the sender, at which this document was issued.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/IssueTime"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "TaxPointDate": {
+                    "title": "Credit Note. Tax Point Date. Date",
+                    "description": "The date of the Credit Note, used to indicate the point at which tax becomes applicable.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/TaxPointDate"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "CreditNoteTypeCode": {
+                    "title": "Credit Note. Credit Note Type Code. Code",
+                    "description": "A code signifying the type of the Credit Note.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/CreditNoteTypeCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "Note": {
+                    "title": "Credit Note. Note. Text",
+                    "description": "Free-form text pertinent to this document, conveying information that is not contained explicitly in other structures.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/Note"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "DocumentCurrencyCode": {
+                    "title": "Credit Note. Document_ Currency Code. Code",
+                    "description": "A code signifying the default currency for this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/DocumentCurrencyCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "TaxCurrencyCode": {
+                    "title": "Credit Note. Tax_ Currency Code. Code",
+                    "description": "A code signifying the currency used for tax amounts in the Credit Note.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/TaxCurrencyCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PricingCurrencyCode": {
+                    "title": "Credit Note. Pricing_ Currency Code. Code",
+                    "description": "A code signifying the currency used for prices in the Credit Note.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/PricingCurrencyCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PaymentCurrencyCode": {
+                    "title": "Credit Note. Payment_ Currency Code. Code",
+                    "description": "A code signifying the currency used for payment in the Credit Note.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/PaymentCurrencyCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PaymentAlternativeCurrencyCode": {
+                    "title": "Credit Note. Payment Alternative_ Currency Code. Code",
+                    "description": "A code signifying the alternative currency used for payment in the Credit Note.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/PaymentAlternativeCurrencyCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "AccountingCostCode": {
+                    "title": "Credit Note. Accounting Cost Code. Code",
+                    "description": "The buyer's accounting code, applied to the Credit Note as a whole.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/AccountingCostCode"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "AccountingCost": {
+                    "title": "Credit Note. Accounting Cost. Text",
+                    "description": "The buyer's accounting code, applied to the Credit Note as a whole, expressed as text.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/AccountingCost"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "LineCountNumeric": {
+                    "title": "Credit Note. Line Count. Numeric",
+                    "description": "The number of Credit Note Lines in the document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/LineCountNumeric"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "BuyerReference": {
+                    "title": "Credit Note. Buyer_ Reference. Text",
+                    "description": "A reference provided by the buyer used for internal routing of the document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/BuyerReference"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "InvoicePeriod": {
+                    "title": "Credit Note. Invoice_ Period. Period",
+                    "description": "Associates the Credit Note with Invoicing Periods rather than with a specific Invoice.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/InvoicePeriod"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "DiscrepancyResponse": {
+                    "title": "Credit Note. Discrepancy_ Response. Response",
+                    "description": "A reason for the Credit Note as a whole.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/DiscrepancyResponse"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "OrderReference": {
+                    "title": "Credit Note. Order Reference",
+                    "description": "The Order associated with this Credit Note.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/OrderReference"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "BillingReference": {
+                    "title": "Credit Note. Billing Reference",
+                    "description": "A reference to a billing document associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/BillingReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "DespatchDocumentReference": {
+                    "title": "Credit Note. Despatch_ Document Reference. Document Reference",
+                    "description": "A reference to a Despatch Advice associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/DespatchDocumentReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "ReceiptDocumentReference": {
+                    "title": "Credit Note. Receipt_ Document Reference. Document Reference",
+                    "description": "A reference to a Receipt Advice associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/ReceiptDocumentReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "ContractDocumentReference": {
+                    "title": "Credit Note. Contract_ Document Reference. Document Reference",
+                    "description": "A reference to a contract associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/ContractDocumentReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "AdditionalDocumentReference": {
+                    "title": "Credit Note. Additional_ Document Reference. Document Reference",
+                    "description": "A reference to an additional document associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AdditionalDocumentReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "StatementDocumentReference": {
+                    "title": "Credit Note. Statement_ Document Reference. Document Reference",
+                    "description": "A reference to a Statement associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/StatementDocumentReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "OriginatorDocumentReference": {
+                    "title": "Credit Note. Originator_ Document Reference. Document Reference",
+                    "description": "A reference to an originator document associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/OriginatorDocumentReference"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "Signature": {
+                    "title": "Credit Note. Signature",
+                    "description": "A signature applied to this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/Signature"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "AccountingSupplierParty": {
+                    "title": "Credit Note. Accounting_ Supplier Party. Supplier Party",
+                    "description": "The accounting supplier party.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AccountingSupplierParty"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "AccountingCustomerParty": {
+                    "title": "Credit Note. Accounting_ Customer Party. Customer Party",
+                    "description": "The accounting customer party.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AccountingCustomerParty"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PayeeParty": {
+                    "title": "Credit Note. Payee_ Party. Party",
+                    "description": "The payee.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PayeeParty"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "BuyerCustomerParty": {
+                    "title": "Credit Note. Buyer_ Customer Party. Customer Party",
+                    "description": "The buyer.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/BuyerCustomerParty"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "SellerSupplierParty": {
+                    "title": "Credit Note. Seller_ Supplier Party. Supplier Party",
+                    "description": "The seller.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/SellerSupplierParty"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "TaxRepresentativeParty": {
+                    "title": "Credit Note. Tax Representative_ Party. Party",
+                    "description": "The tax representative.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/TaxRepresentativeParty"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "Delivery": {
+                    "title": "Credit Note. Delivery",
+                    "description": "A delivery associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/Delivery"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "DeliveryTerms": {
+                    "title": "Credit Note. Delivery Terms",
+                    "description": "A set of delivery terms associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/DeliveryTerms"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PaymentMeans": {
+                    "title": "Credit Note. Payment Means",
+                    "description": "Expected means of payment.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentMeans"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PaymentTerms": {
+                    "title": "Credit Note. Payment Terms",
+                    "description": "A set of payment terms associated with this document.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentTerms"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "TaxExchangeRate": {
+                    "title": "Credit Note. Tax_ Exchange Rate. Exchange Rate",
+                    "description": "The exchange rate between the document currency and the tax currency.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/TaxExchangeRate"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PricingExchangeRate": {
+                    "title": "Credit Note. Pricing_ Exchange Rate. Exchange Rate",
+                    "description": "The exchange rate between the document currency and the pricing currency.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PricingExchangeRate"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PaymentExchangeRate": {
+                    "title": "Credit Note. Payment_ Exchange Rate. Exchange Rate",
+                    "description": "The exchange rate between the document currency and the payment currency.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentExchangeRate"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "PaymentAlternativeExchangeRate": {
+                    "title": "Credit Note. Payment Alternative_ Exchange Rate. Exchange Rate",
+                    "description": "The exchange rate between the document currency and the payment alternative currency.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentAlternativeExchangeRate"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "AllowanceCharge": {
+                    "title": "Credit Note. Allowance Charge",
+                    "description": "A discount or charge that applies to a price component.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AllowanceCharge"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "TaxTotal": {
+                    "title": "Credit Note. Tax Total",
+                    "description": "The total amount of a specific type of tax.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/TaxTotal"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "LegalMonetaryTotal": {
+                    "title": "Credit Note. Legal_ Monetary Total. Monetary Total",
+                    "description": "The total amount payable on the Credit Note, including allowances, charges, and taxes.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/LegalMonetaryTotal"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                },
+                "CreditNoteLine": {
+                    "title": "Credit Note. Credit Note Line",
+                    "description": "A Credit Note line.",
+                    "items": {
+                        "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/CreditNoteLine"
+                    },
+                    "minItems": 1,
+                    "additionalProperties": false,
+                    "type": "array"
+                }
             },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "CustomizationID": {
-          "title": "Credit Note. Customization Identifier. Identifier",
-          "description": "Identifies a user-defined customization of UBL for a specific use.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/CustomizationID"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "ProfileID": {
-          "title": "Credit Note. Profile Identifier. Identifier",
-          "description": "Identifies a user-defined profile of the customization of UBL being used.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/ProfileID"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "ProfileExecutionID": {
-          "title": "Credit Note. Profile Execution Identifier. Identifier",
-          "description": "Identifies an instance of executing a profile, to associate all transactions in a collaboration.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/ProfileExecutionID"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "ID": {
-          "title": "Credit Note. Identifier",
-          "description": "An identifier for this document, assigned by the sender.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/ID"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "CopyIndicator": {
-          "title": "Credit Note. Copy_ Indicator. Indicator",
-          "description": "Indicates whether this document is a copy (true) or not (false).",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/CopyIndicator"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "UUID": {
-          "title": "Credit Note. UUID. Identifier",
-          "description": "A universally unique identifier for an instance of this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/UUID"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "IssueDate": {
-          "title": "Credit Note. Issue Date. Date",
-          "description": "The date, assigned by the sender, on which this document was issued.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/IssueDate"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "IssueTime": {
-          "title": "Credit Note. Issue Time. Time",
-          "description": "The time, assigned by the sender, at which this document was issued.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/IssueTime"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "TaxPointDate": {
-          "title": "Credit Note. Tax Point Date. Date",
-          "description": "The date of the Credit Note, used to indicate the point at which tax becomes applicable.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/TaxPointDate"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "CreditNoteTypeCode": {
-          "title": "Credit Note. Credit Note Type Code. Code",
-          "description": "A code signifying the type of the Credit Note.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/CreditNoteTypeCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "Note": {
-          "title": "Credit Note. Note. Text",
-          "description": "Free-form text pertinent to this document, conveying information that is not contained explicitly in other structures.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/Note"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "DocumentCurrencyCode": {
-          "title": "Credit Note. Document_ Currency Code. Code",
-          "description": "A code signifying the default currency for this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/DocumentCurrencyCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "TaxCurrencyCode": {
-          "title": "Credit Note. Tax_ Currency Code. Code",
-          "description": "A code signifying the currency used for tax amounts in the Credit Note.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/TaxCurrencyCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PricingCurrencyCode": {
-          "title": "Credit Note. Pricing_ Currency Code. Code",
-          "description": "A code signifying the currency used for prices in the Credit Note.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/PricingCurrencyCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PaymentCurrencyCode": {
-          "title": "Credit Note. Payment_ Currency Code. Code",
-          "description": "A code signifying the currency used for payment in the Credit Note.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/PaymentCurrencyCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PaymentAlternativeCurrencyCode": {
-          "title": "Credit Note. Payment Alternative_ Currency Code. Code",
-          "description": "A code signifying the alternative currency used for payment in the Credit Note.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/PaymentAlternativeCurrencyCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "AccountingCostCode": {
-          "title": "Credit Note. Accounting Cost Code. Code",
-          "description": "The buyer's accounting code, applied to the Credit Note as a whole.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/AccountingCostCode"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "AccountingCost": {
-          "title": "Credit Note. Accounting Cost. Text",
-          "description": "The buyer's accounting code, applied to the Credit Note as a whole, expressed as text.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/AccountingCost"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "LineCountNumeric": {
-          "title": "Credit Note. Line Count. Numeric",
-          "description": "The number of Credit Note Lines in the document.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/LineCountNumeric"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "BuyerReference": {
-          "title": "Credit Note. Buyer_ Reference. Text",
-          "description": "A reference provided by the buyer used for internal routing of the document.",
-          "items": {
-            "$ref": "../common/UBL-CommonBasicComponents-2.1.json#/definitions/BuyerReference"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "InvoicePeriod": {
-          "title": "Credit Note. Invoice_ Period. Period",
-          "description": "Associates the Credit Note with Invoicing Periods rather than with a specific Invoice.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/InvoicePeriod"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "DiscrepancyResponse": {
-          "title": "Credit Note. Discrepancy_ Response. Response",
-          "description": "A reason for the Credit Note as a whole.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/DiscrepancyResponse"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "OrderReference": {
-          "title": "Credit Note. Order Reference",
-          "description": "The Order associated with this Credit Note.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/OrderReference"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "BillingReference": {
-          "title": "Credit Note. Billing Reference",
-          "description": "A reference to a billing document associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/BillingReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "DespatchDocumentReference": {
-          "title": "Credit Note. Despatch_ Document Reference. Document Reference",
-          "description": "A reference to a Despatch Advice associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/DespatchDocumentReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "ReceiptDocumentReference": {
-          "title": "Credit Note. Receipt_ Document Reference. Document Reference",
-          "description": "A reference to a Receipt Advice associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/ReceiptDocumentReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "ContractDocumentReference": {
-          "title": "Credit Note. Contract_ Document Reference. Document Reference",
-          "description": "A reference to a contract associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/ContractDocumentReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "AdditionalDocumentReference": {
-          "title": "Credit Note. Additional_ Document Reference. Document Reference",
-          "description": "A reference to an additional document associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AdditionalDocumentReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "StatementDocumentReference": {
-          "title": "Credit Note. Statement_ Document Reference. Document Reference",
-          "description": "A reference to a Statement associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/StatementDocumentReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "OriginatorDocumentReference": {
-          "title": "Credit Note. Originator_ Document Reference. Document Reference",
-          "description": "A reference to an originator document associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/OriginatorDocumentReference"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "Signature": {
-          "title": "Credit Note. Signature",
-          "description": "A signature applied to this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/Signature"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "AccountingSupplierParty": {
-          "title": "Credit Note. Accounting_ Supplier Party. Supplier Party",
-          "description": "The accounting supplier party.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AccountingSupplierParty"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "AccountingCustomerParty": {
-          "title": "Credit Note. Accounting_ Customer Party. Customer Party",
-          "description": "The accounting customer party.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AccountingCustomerParty"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PayeeParty": {
-          "title": "Credit Note. Payee_ Party. Party",
-          "description": "The payee.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PayeeParty"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "BuyerCustomerParty": {
-          "title": "Credit Note. Buyer_ Customer Party. Customer Party",
-          "description": "The buyer.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/BuyerCustomerParty"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "SellerSupplierParty": {
-          "title": "Credit Note. Seller_ Supplier Party. Supplier Party",
-          "description": "The seller.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/SellerSupplierParty"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "TaxRepresentativeParty": {
-          "title": "Credit Note. Tax Representative_ Party. Party",
-          "description": "The tax representative.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/TaxRepresentativeParty"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "Delivery": {
-          "title": "Credit Note. Delivery",
-          "description": "A delivery associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/Delivery"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "DeliveryTerms": {
-          "title": "Credit Note. Delivery Terms",
-          "description": "A set of delivery terms associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/DeliveryTerms"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PaymentMeans": {
-          "title": "Credit Note. Payment Means",
-          "description": "Expected means of payment.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentMeans"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PaymentTerms": {
-          "title": "Credit Note. Payment Terms",
-          "description": "A set of payment terms associated with this document.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentTerms"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "TaxExchangeRate": {
-          "title": "Credit Note. Tax_ Exchange Rate. Exchange Rate",
-          "description": "The exchange rate between the document currency and the tax currency.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/TaxExchangeRate"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PricingExchangeRate": {
-          "title": "Credit Note. Pricing_ Exchange Rate. Exchange Rate",
-          "description": "The exchange rate between the document currency and the pricing currency.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PricingExchangeRate"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PaymentExchangeRate": {
-          "title": "Credit Note. Payment_ Exchange Rate. Exchange Rate",
-          "description": "The exchange rate between the document currency and the payment currency.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentExchangeRate"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "PaymentAlternativeExchangeRate": {
-          "title": "Credit Note. Payment Alternative_ Exchange Rate. Exchange Rate",
-          "description": "The exchange rate between the document currency and the payment alternative currency.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/PaymentAlternativeExchangeRate"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "AllowanceCharge": {
-          "title": "Credit Note. Allowance Charge",
-          "description": "A discount or charge that applies to a price component.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/AllowanceCharge"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "TaxTotal": {
-          "title": "Credit Note. Tax Total",
-          "description": "The total amount of a specific type of tax.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/TaxTotal"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "LegalMonetaryTotal": {
-          "title": "Credit Note. Legal_ Monetary Total. Monetary Total",
-          "description": "The total amount payable on the Credit Note, including allowances, charges, and taxes.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/LegalMonetaryTotal"
-            },
-          "maxItems": 1,
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          },
-        "CreditNoteLine": {
-          "title": "Credit Note. Credit Note Line",
-          "description": "A Credit Note line.",
-          "items": {
-            "$ref": "../common/UBL-CommonAggregateComponents-2.1.json#/definitions/CreditNoteLine"
-            },
-          "minItems": 1,
-          "additionalProperties": false,
-          "type": "array"
-          }
-        },
-      "additionalProperties": false,
-      "type": "object"
-      }
+            "additionalProperties": false,
+            "type": "object"
+        }
     }
-  }
+}
